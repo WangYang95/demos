@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>html form demo</title>
+    </head>
+    <body>
+        <div class="form">
+            <form action="abc" method="get">
+                <div class="username">
+                    <label for="username">姓名：</label>
+                    <input id="username" type="text" name="username" placeholder="请输入用户名">
+                </div>
+                <div class="password">
+                    <label for="password">密码：</label>
+                    <input id="password" type="password" name="password" placeholder="请输入密码">
+                </div>
+                <div class="sex">
+                    <label>性别：</label>
+                    <input id="sex_men" type="radio" name="sex" value="men" checked="checked">男
+                    <input id="sex_women" type="radio" name="sex" value="women">女
+                </div>
+                <div class="sexual">
+                    <label>取向：</label>
+                    <input id="sexual_men" type="radio" name="sexual" value="men">男
+                    <input id="sexual_women" type="radio" name="sexual" value="women" checked="checked">女
+                </div>
+                <div class="hobby">
+                    <label>爱好：</label>
+                    <input id="hobby_dota" type="checkbox" name="hobby" value="dota">dota
+                    <input id="hobby_travel" type="checkbox" name="hobby" value="travel" checked="checked">旅游
+                    <input id="hobby_pet" type="checkbox" name="hobby" value="pet"checked="checked">宠物
+                </div>
+                <div class="comment">
+                    <label for="username">评论：</label></br>
+                    <textarea id="comment" name="comment" placeholder="ddd"></textarea>
+                </div>
+                <div class="select">
+                    <label>我的car：</label>
+                    <select name="mycar">
+                        <option value ="比亚迪">比亚迪</option>
+                        <option value ="萨博" selected="selected">萨博</option>
+                        <option value ="宝马">宝马</option>
+                    </select>
+                    <input id="submit" type="submit" value="提交">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
